@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DaviaShop — curated home, beauty, and seasonal favorites.">
+  <title>DaviaShop | Finds You'll Love</title>
+  <style>
+    :root { --rose:#a94e70; --ink:#302b35; --cream:#fff9f7; --soft:#faedf1; --line:#efdde3; }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{color:inherit}header{background:#fff;box-shadow:0 2px 12px #0000000c;position:sticky;top:0;z-index:2}nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 22px;flex-wrap:wrap}
+    .brand{font-size:1.65rem;font-weight:800;color:var(--rose);text-decoration:none;letter-spacing:-.5px}.navlinks{display:flex;gap:20px;flex-wrap:wrap}.navlinks a{text-decoration:none;font-weight:600;font-size:.95rem}.navlinks a:hover{color:var(--rose)}
+    .hero{background:linear-gradient(115deg,#fff0f4 0%,#fff9f7 60%,#f8e9ef 100%);text-align:center;padding:94px 22px 100px}.eyebrow{text-transform:uppercase;letter-spacing:.22em;color:var(--rose);font-size:.77rem;font-weight:bold}.hero h1{font-size:clamp(2.6rem,7vw,4.6rem);line-height:1.14;max-width:780px;margin:15px auto}.hero p{max-width:610px;margin:0 auto 27px;font-size:1.12rem;color:#675a61}
+    .button{display:inline-block;background:var(--rose);color:#fff;padding:13px 25px;border-radius:28px;text-decoration:none;font-weight:700}.button:hover{background:#843954}.section{max-width:1100px;margin:auto;padding:72px 22px}.section h2{text-align:center;font-size:2.2rem;margin:0 0 10px}.intro{text-align:center;color:#71666b;max-width:680px;margin:0 auto 38px}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 5px 20px #53243a0a}.visual{height:170px;display:flex;align-items:center;justify-content:center;font-size:4.1rem;background:var(--soft)}.card:nth-child(2) .visual{background:#f5edf9}.card:nth-child(3) .visual{background:#f8f0df}.card-content{padding:25px}.card h3{margin:0 0 8px;font-size:1.25rem}.card p{color:#6e6269;margin:0 0 18px}.card a{color:var(--rose);font-weight:700;text-decoration:none}.card a:hover{text-decoration:underline}
+    .about{background:#fff}.about-wrap{max-width:760px;margin:auto;text-align:center}.notice{font-size:.87rem;color:#756b70;padding:18px 22px;background:#fff;border-top:1px solid var(--line);text-align:center}footer{background:#332b32;color:#fff;text-align:center;padding:30px 20px}footer a{color:#ffcade}
+    @media(max-width:720px){.cards{grid-template-columns:1fr}.hero{padding:66px 20px}.section{padding:55px 20px}nav{justify-content:center}}
+  </style>
+</head>
+<body>
+  <header><nav><a class="brand" href="#home">DaviaShop</a><div class="navlinks"><a href="#collections">Collections</a><a href="#about">About</a><a href="#contact">Connect</a></div></nav></header>
+  <main>
+    <section class="hero" id="home"><div class="eyebrow">Welcome to DaviaShop</div><h1>Beautiful Finds for Everyday Living</h1><p>Discover thoughtfully curated home decor, beauty favorites, and seasonal inspiration — all in one place.</p><a class="button" href="#collections">Explore Collections</a></section>
+    <section class="section" id="collections"><h2>Shop Our Favorites</h2><p class="intro">Explore collections selected to bring a little more beauty and joy to your everyday life.</p><div class="cards">
+      <article class="card"><div class="visual" aria-hidden="true">🎄</div><div class="card-content"><h3>Christmas Home Decorations</h3><p>Festive decorating ideas, ornaments, and holiday home inspiration.</p><a href="#contact">Ask for the collection →</a></div></article>
+      <article class="card"><div class="visual" aria-hidden="true">✨</div><div class="card-content"><h3>Beauty Favorites</h3><p>Discover beauty picks and little luxuries worth exploring.</p><a href="#contact">Ask for the collection →</a></div></article>
+      <article class="card"><div class="visual" aria-hidden="true">🏡</div><div class="card-content"><h3>Home & Lifestyle</h3><p>Handpicked ideas to make your home feel welcoming and stylish.</p><a href="#contact">Ask for the collection →</a></div></article>
+    </div></section>
+    <section class="about section" id="about"><div class="about-wrap"><h2>About DaviaShop</h2><p>DaviaShop is a place to share favorite finds, shopping inspiration, and useful recommendations. We're glad you're here!</p></div></section>
+    <section class="section" id="contact"><div class="about-wrap"><h2>Stay Connected</h2><p>Visit our Facebook community for updates and new discoveries.</p><a class="button" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Find Us on Facebook</a></div></section>
+  </main>
+  <div class="notice">Disclosure: DaviaShop may earn commissions from qualifying purchases through affiliate links, at no additional cost to you.</div>
+  <footer>© <span id="year">2026</span> DaviaShop. All rights reserved.</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
